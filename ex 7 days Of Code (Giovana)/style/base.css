@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --cinza-letra: #667085;
+    --cor-de-fundo-vermelho: #8e2424;
+    --branco: #FFFFFF;
+    --preto: #101828;
+    --background-vermelho: #8E24240D;
+    --borda-cinza: #EAECF0;
+    --background-colaboradores: #c3191909;
+    --background-rodape: #F9FAFB;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-letra);
+}
+
+/* Header */
+
+nav {
+    font-size: 16px;
+}
+
+.lista__cabecalho {
+    color: var(--cinza-letra);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item-2 {
+    background: var(--cor-de-fundo-vermelho);
+    border-radius: 8px;
+    color: var(--branco);
+    padding: 13px 18px 10px 18px;
+}
+
+.logo__cabecalho, .lista-header:hover {
+    cursor: pointer;
+}
+
+/* Secão Topo Principal */
+
+.titulo__principal {
+    color: var(--cor-de-fundo-vermelho);
+    font-size: 18px;
+}
+
+.titulo__principal-secundario {
+    color: var(--preto);
+    font-size: 48px;
+}
+
+.paragrafo__principal {
+    font-size: 20px;
+}
+
+/* Seção Topo Secundario */
+
+.numero__secao-secundario {
+    color: var(--cor-de-fundo-vermelho);
+    font-size: 60px;
+}
+
+.titulo__secao-secundario {
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.paragrafo__secao-secundario {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Seção Talentos */
+
+.titulo__talentos {
+    color: var(--cor-de-fundo-vermelho);
+    font-size: 14px;
+    border-radius: 16px;
+    background: var(--background-vermelho);
+    width: 125px;
+    padding: 4px, 12px, 4px, 12px;
+}
+
+.subtitulo__talentos {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.paragrafo__talentos {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Seção Designer */
+
+.container__design {
+    border: 2px solid var(--borda-cinza);
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+}
+
+.designer__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.designer__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+/* Seção Colaboradores */
+
+.secao__colaboradores {
+    background: var(--background-colaboradores);
+}
+
+.titulo__colaboradores {
+    color: var(--cor-de-fundo-vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subtitulo__colaboradores {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.nome__desenvolvedor {
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nome__cargo {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+
+/* Rodape */
+
+.rodape {
+    background: var(--background-rodape);
+}
+
+.titulo__rodape {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.paragrafo__rodape {
+    font-size: 20px;
+}
+
+.email__rodape {
+    width: 360px;
+    height: 48px;
+    padding-left: 1rem;
+    font-size: 16px;
+    border-radius: 10px;
+}

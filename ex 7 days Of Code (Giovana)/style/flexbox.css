@@ -1,0 +1,113 @@
+/* Header */
+
+header {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-header {
+    display: flex;
+    justify-self: flex-start;
+    column-gap: 2rem;
+}
+
+.item-1 {
+    padding-right: 1.5rem;
+}
+
+/* Seção Topo Principal  */
+
+.secao__topo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 0 65px 0;
+    text-align: center;
+}
+
+/* Seção Topo Secundario  */
+
+.secao__topo-secundario {
+    display: flex;
+    column-gap: 28px;
+    padding: 0 20px 96px 60px;
+}
+
+/* Seção Talentos */
+
+.secao__talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo__talentos {
+    margin-top: .1rem;
+}
+
+.paragrafo__talentos {
+    margin-top: .1rem;
+    padding-bottom: 2rem;
+}
+
+/* Seção Designer */
+
+.container__principal-design {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 0 32px;
+    gap: 50px;
+    margin: 0 16rem 0 16rem;
+}
+
+.designer__titulo {
+    padding-top: 4rem;
+    margin-bottom: 0;
+}
+
+.design__estilo {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.secundario {
+    padding-top: 0;
+}
+
+/* Seção Colaboradores */
+
+.secao__colaboradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    text-align: center;
+    margin: 4rem 8rem 0 8rem;
+}
+
+/* Rodape */
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.paragrafo__rodape {
+    margin-top: 0;
+}
+
+.container__rodape-email {
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+
+}
